@@ -19,7 +19,6 @@ public class main
         digital.Add(9,2);
 
         int n = int.Parse(Console.ReadLine());
-        int i = 0;
         int lastDigit = n % 10;
         n = n / 10;
         int lastDigit2 = n;
